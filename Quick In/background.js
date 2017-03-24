@@ -48,9 +48,13 @@
 			newURL = "https://www.twitter.com/login"; 
 
 		break;
-		case 'twitter': 
+		case 'pinterest': 
 			newURL = "https://www.pinterest.com/login";
 
+		break;
+		
+		case 'github':
+			newURL = "https://github.com/login";
 		break;
 	}
 
