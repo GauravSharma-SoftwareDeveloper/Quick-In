@@ -12,6 +12,15 @@ A chrome extension along with an android app makes your life much easier. Having
   - No manual credential entry is required.
   - Remotely open your accounts from anywhere.
 
+## Supports Login for :
+
+  - Facebook
+  - Github
+  - Stackoverflow
+  - Twitter
+  - Dropbox
+
+
 ### Tech
 
 Quick-In uses following technologies :
