@@ -57,6 +57,14 @@
 						defaultReplace = null;
 					break;
 						
+						
+					case 'github' :
+						loginField = document.getElementById('login_field');
+						passwordField = document.getElementById('password');
+						loginForm = document.getElementsByName( 'commit' )[0];
+						defaultReplace = "https://github.com";
+					break;
+						
 					case 'dropbox' :
 						loginField = document.querySelectorAll('input[type=email]')[0];
 						passwordField = document.querySelectorAll('input[type=password]')[0];
