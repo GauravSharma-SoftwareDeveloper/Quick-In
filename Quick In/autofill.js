@@ -56,9 +56,16 @@
 						loginForm = document.querySelectorAll('button[type=password]')[0];
 						defaultReplace = null;
 					break;
+						
+					case 'dropbox' :
+						loginField = document.querySelectorAll('input[type=email]')[0];
+						passwordField = document.querySelectorAll('input[type=password]')[0];
+						loginForm = document.querySelectorAll('button[type=submit]')[0];
+						defaultReplace = "https://dropbox.com";
+					break;
 
 					default:
-						alert("id not defined!");
+						//alert("id not defined!");
 
 				}
 
